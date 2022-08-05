@@ -1,4 +1,4 @@
-# Remote Ok Job Board
+# Dynamic Twitter Page
 <h3>What is it?</h3>
 <p>A small replication of 2 <a href="https://twitter.com/" target="_blank">Twitter</a> accounts.</p>
 
