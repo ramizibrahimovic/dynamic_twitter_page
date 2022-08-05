@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Twitter</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+    <div class="outer-container">
+        <div class="header-container">
+            <svg class="back-button" clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m9.474 5.209s-4.501 4.505-6.254 6.259c-.147.146-.22.338-.22.53s.073.384.22.53c1.752 1.754 6.252 6.257 6.252 6.257.145.145.336.217.527.217.191-.001.383-.074.53-.221.293-.293.294-.766.004-1.057l-4.976-4.976h14.692c.414 0 .75-.336.75-.75s-.336-.75-.75-.75h-14.692l4.978-4.979c.289-.289.287-.761-.006-1.054-.147-.147-.339-.221-.53-.221-.191-.001-.38.071-.525.215z" fill-rule="nonzero"/></svg>
+            <div class="header-content">
+                <h3></h3>
+                <svg class="verified" width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M12 0l-2.138 2.63-3.068-1.441-.787 3.297-3.389.032.722 3.312-3.039 1.5 2.088 2.671-2.088 2.67 3.039 1.499-.722 3.312 3.389.033.787 3.296 3.068-1.441 2.138 2.63 2.139-2.63 3.068 1.441.786-3.296 3.39-.033-.722-3.312 3.038-1.499-2.087-2.67 2.087-2.671-3.038-1.5.722-3.312-3.39-.032-.786-3.297-3.068 1.441-2.139-2.63zm0 15.5c.69 0 1.25.56 1.25 1.25s-.56 1.25-1.25 1.25-1.25-.56-1.25-1.25.56-1.25 1.25-1.25zm1-1.038v-7.462h-2v7.462h2z"/></svg>
+                <h6 id="tweet-count"></h6>
+            </div>
+        </div> 
+        <div class="banner-container">
+            <img class="banner" src="/assets/elonmusk-cover.jpeg">
+            <img class="profile-picture" src="assets/elonmusk.jpg">
+            <a href="#" class="change"><button>Change</button></a>
+            <a href="/timeline.html" class="change"><button>Timeline</button></a>
+        </div>
+        <div class="profile-container">
+            <h3></h3>
+            <svg class="verified" width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M12 0l-2.138 2.63-3.068-1.441-.787 3.297-3.389.032.722 3.312-3.039 1.5 2.088 2.671-2.088 2.67 3.039 1.499-.722 3.312 3.389.033.787 3.296 3.068-1.441 2.138 2.63 2.139-2.63 3.068 1.441.786-3.296 3.39-.033-.722-3.312 3.038-1.499-2.087-2.67 2.087-2.671-3.038-1.5.722-3.312-3.39-.032-.786-3.297-3.068 1.441-2.139-2.63zm0 15.5c.69 0 1.25.56 1.25 1.25s-.56 1.25-1.25 1.25-1.25-.56-1.25-1.25.56-1.25 1.25-1.25zm1-1.038v-7.462h-2v7.462h2z"/></svg>    
+            <h6 id="handle"></h6>
+            <h6 class="joined"></h6>
+            <span class="follow-numbers following">105</span><span class="follow">Following</span>
+            <span class="follow-numbers followers">54.3M</span><span class="follow">Followers</span>
+        </div>
+        <div class="tab-container">
+            <a class="tab tab-active">Tweets</a>
+            <a class="tab">Tweets & replies</a>
+            <a class="tab">Media</a>
+            <a class="tab">Likes</a>
+        </div>
+        <div class="tweet-container">
+        </div>
+        
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
