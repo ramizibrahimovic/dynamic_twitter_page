@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.verified {
+    fill: #1ea0f0;
+}
+
+h3, h5 {
+    display: inline-block;
+}
+h6, span {
+    color: #5a7183;
+}
+h6 {
+    font-weight: normal;
+    font-size: 15px;
+    margin-top: 6px;
+}
+
+.profile-container span {
+    display: inline-block;
+    margin-top: 14px;
+    margin-bottom: 30px;
+}
+
+.outer-container {
+    background-color: white;
+    margin: auto;
+    width: 600px;
+    border: 1px lightgrey solid;
+}
+
+.header-container {
+    display: flex;
+    align-items:center;
+    padding: 20px;
+}
+
+.back-button {
+    width: 30px;
+    fill: #1ea0f0;
+}
+
+.header-content {
+    margin-left: 40px;
+    height: 50px;
+}   
+
+.banner {
+    width: 100%;
+}
+
+.profile-picture {
+    width: 25%;
+    border: white 3px solid;    
+    border-radius: 100%;
+    position:relative;
+    left: 15px;
+    bottom: 75px;
+}
+
+.following {
+    position: relative;
+    left: 320px;
+    bottom: 110px;
+}
+
+.following button {
+    background: #1fa0f1;
+    padding: 12px 16px;
+    border-radius: 24px;
+    color: white;
+    border: none;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: .05rem;
+
+}
+
+.banner-container {
+    height: 300px;
+}
+
+.profile-container {
+    margin-left: 20px;
+}
+
+.joined {
+    letter-spacing: 0.1rem;
+}
+
+.follow-numbers {
+    color: black;
+    font-weight: bold;
+    margin-right: 4px;
+}
+
+.follow {
+    margin-right: 15px;
+}
+
+.tab-container {
+    display: flex;
+    justify-content:center;
+    margin-bottom: 20px;
+    height: 45px;
+}
+
+.tab {
+    width: 25%;
+    text-align: center;
+    font-weight: bold;
+    color: #5a7183;
+}
+
+.tab-active {
+    color: #21a2f0;
+    border-bottom: 3px solid #21a2f0;
+}
+
+.tweet-container {
+    border-top: 1px lightgrey solid;
+    padding: 10px 0 0 12px;
+    display: flex;
+    width: 100%;
+}
+
+.tweet-profile-picture {
+    width: 50px;
+    border-radius: 100%;
+}
+
+.tweet-content-middle {
+    margin-left: 10px;
+    width: 70%;
+}
+
+.tweet-content-middle-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+
+.tweet-content-middle-top svg {
+    width: 6%;
+    height: auto;
+}
+
+.tweet-content-middle-top * {
+    margin-top: 0;
+    margin-right: 5px;
+}
+
+.tweet-content-middle-bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    vertical-align:baseline;
+}
+
+.tweet-content-middle-bottom span {
+    margin-right: 15px;
+    transform:translateY(-5px);
+}
+
+.emoji {
+    color:transparent;
+    text-shadow: 0 0 0 grey;
+}
+
